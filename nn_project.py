@@ -29,7 +29,6 @@ from PIL import Image
 import torch.nn.functional as F
 import time
 
-from torchvision.models import googlenet, GoogLeNet_Weights
 
 
 
@@ -331,7 +330,7 @@ elif selected_model == "Model 2":
 
 
 
-        model2.load_state_dict(torch.load('birds_classification_resnet18_model1.pth', map_location=torch.device('cpu')))
+        model2.load_state_dict(torch.load('birds_classifications_weights.pt', map_location=torch.device('cpu')))
         st.title("This App recognizes 200 bird species")
         url2 = st.text_input("Enter image url")
 
