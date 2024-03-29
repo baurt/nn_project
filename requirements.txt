@@ -11,6 +11,5 @@ torch
 torchvision
 torchutils
 requests
-io
-PIL
 
+PIL
