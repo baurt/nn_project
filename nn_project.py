@@ -54,7 +54,7 @@ if selected_model == "Model 1":
 
 
 
-                model.load_state_dict(torch.load('/Users/baur/nn_project/weather_classification_resnet18.pth', map_location=torch.device('cpu')))
+                model.load_state_dict(torch.load('weather_classification_resnet18.pth', map_location=torch.device('cpu')))
                 st.title("This App recognizes weather based on image provided")
                 url = st.text_input("Enter image url")
 
