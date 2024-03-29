@@ -1,0 +1,16 @@
+pandas
+plotly
+streamlit
+
+pandas-datareader
+
+seaborn
+numpy
+matplotlib
+torch
+torchvision
+torchutils
+requests
+io
+PIL
+
